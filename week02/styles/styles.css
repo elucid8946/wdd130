@@ -27,26 +27,30 @@ main {
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
     background-color: #32527b;
     color: #eee;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 20rem;
     text-align: center;
 }
+
 main img {
     width: 150px;
     height: auto;
 }
+
 p { 
     padding: 0;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -70,7 +74,7 @@ footer {
 }
 
 main img {
-    float: top;
+    float: right;
 }
 
 aside h2 {
