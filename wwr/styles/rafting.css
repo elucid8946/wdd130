@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
 
 :root {
     --primary-color: #03045E;
@@ -15,9 +20,17 @@
     --nav-hover-background-color: #CAF0F8;
 }
 
-h1 {
-    position: absolute;
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
+
+h1, h2 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
 
 article {
     position: absolute;
@@ -35,4 +48,10 @@ p {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.sociallinks {
+    background-color: var(--nav-baclground-color);
+    font-size: 1.2rem;
+    display: flex;
 }
