@@ -5,6 +5,15 @@ body {
     padding: 20px;
 }
 
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+main {
+    max-width: 840px;
+}
+
 :root {
     --primary-color: #03045E;
     --secondary-color: #0077B6;
@@ -18,11 +27,6 @@ body {
     --nav-link-color: #0077B6;
     --nav-hover-link-color: #00B4D8;
     --nav-hover-background-color: #CAF0F8;
-}
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
 }
 
 h1 {
@@ -66,3 +70,10 @@ p {
     background-color: var(--nav-hover-baclground-color);
 }
 
+.sociallinks img {
+    float: right;
+	margin: 0 0 10px 15px;
+	padding: 3px;
+	width: 100px;
+	height: auto;
+}
