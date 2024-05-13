@@ -55,3 +55,18 @@ p {
     font-size: 1.2rem;
     display: flex;
 }
+
+.sociallinks:link, .socialinks:visited {
+    color: var(--nav-link-color);
+}
+
+.sociallinks:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-baclground-color);
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
