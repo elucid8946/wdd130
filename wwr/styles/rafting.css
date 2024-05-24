@@ -6,6 +6,12 @@ body {
 }
 
 header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #0077B6;
+    max-width: 1000px;
     padding: 20px;
     background-color: var(--accent1-color);
 }
@@ -31,10 +37,14 @@ main {
 
 h1 {
     position: absolute;
+    font-size: 2rem;
+    font-family: var(--paragraph-font);
 }
 
 article {
     position: absolute;
+    font-size: 2rem;
+
 }
 
 article img {
@@ -76,4 +86,27 @@ p {
 	padding: 3px;
 	width: 100px;
 	height: auto;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color:#0077B6;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #00B4D8;
+    font-weight: 700;
+    text-decoration: underline;
 }
