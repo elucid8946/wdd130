@@ -159,3 +159,110 @@ p {
     font-family: var(--paragraph-font);
     text-align: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: DM Serif Display, Poppins, Merriweather;
+    font-size: 1em;
+    color: steelblue;
+    background: #fff
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px darkblue;
+    border-radius: 1rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.25rem;
+    margin: 1rem;
+    border: 1px steelblue;
+    padding: 1rem;
+}
+
+label, input, button, textarea {
+    font-family: DM Serif Display, Poppins, Merriweather;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #eee;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+.workers {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    margin: auto;
+    border: 1px darkblue;
+    border-radius: 1rem;
+}
+
+.workers img {
+    display: block;
+    width: 250px;
+    height: auto;
+}
+
+.info p{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin: auto;
+    border: 1px darkblue;
+    border-radius: 1rem;
+    float: center;
+}
+
+.info iframe {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: auto;
+}
