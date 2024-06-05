@@ -67,7 +67,8 @@ p {
 
 .hero {
     position: relative;
-    display: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero img {
@@ -124,8 +125,7 @@ p {
 }
 
 .adventure {
-    display: flex;
-    flex-direction: grid;
+    display: grid;
     gap: 20px;
 }
 
@@ -136,7 +136,7 @@ p {
 
 .history {
     position: relative;
-    display: column;
+    display: flex;
     padding: 32px;
     margin: 32px;
 }
