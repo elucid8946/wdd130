@@ -3,6 +3,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    background-color: var(--accent2-color);
 }
 
 header {
@@ -349,8 +350,4 @@ a {
     top: 350px;
     background-color: var(--accent2-color);
     border: 4px solid var(--secondary-color);
-}
-
-body {
-    background-color: var(--accent2-color);
 }
