@@ -351,3 +351,8 @@ a {
     background-color: var(--accent2-color);
     border: 4px solid var(--secondary-color);
 }
+
+li {
+    display: flex;
+    flex-direction: row;
+}
