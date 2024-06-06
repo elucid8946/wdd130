@@ -244,3 +244,74 @@ button:hover {
     width: 200px;
     height: auto;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+.trip1 {
+    position: relative;
+    display: flex;
+    padding: 32px;
+    margin: 32px;
+}
+
+.trip1 img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.trip2 {
+    position: relative;
+    display: flex;
+    padding: 32px;
+    margin: 32px;
+}
+
+.trip2 img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.trip3 {
+    position: relative;
+    display: flex;
+    padding: 32px;
+    margin: 32px;
+}
+
+.trip3 img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
